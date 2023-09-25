@@ -1,13 +1,28 @@
-.navbar_body_content{
-    background-color: #00000080 ;
+.navbar_body {
+    background-image: url(../../assets/navbarmain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
 }
-.navbar_content_icons{
+
+.navbar_body_content {
+    background-color: #00000080;
+    color: #ffffff;
+}
+.navbar_body_content a{
+    color: #ffffff;
+}
+
+.navbar_content_icons {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
 }
+
 @media (max-width: 992px) {
-    .navbar_content_icons{
+    .navbar_content_icons {
         display: none;
     }
 }
