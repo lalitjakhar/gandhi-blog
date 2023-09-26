@@ -1,10 +1,26 @@
-.gallery_content_body{
+.nav_gallery_content_body{
     background-color: #FFD6005E;
-    height: 10rem;
     margin-top: -2rem;
 }
-.gallery_content_heading{
+.nav_gallery_content_heading{
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+}
+.nav_gallery_content_para{
+    width: 70%;
+    padding: 4rem 10rem 4rem 18rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000000;
+}
+.nav_gallery_content_para p{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+}
+@media (max-width: 992px) {
+    .nav_gallery_content_para{
+        padding: 0;
+    }
 }
