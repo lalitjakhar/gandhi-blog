@@ -4,11 +4,13 @@
 }
 .nav_gallery_content_heading{
     display: flex;
+    height: 15rem;
     justify-content: center;
     padding-top: 3rem;
 }
 .nav_gallery_content_para{
     width: 70%;
+    margin-top: -8rem;
     padding: 4rem 10rem 4rem 18rem;
     display: flex;
     justify-content: flex-start;
@@ -23,4 +25,55 @@
     .nav_gallery_content_para{
         padding: 0;
     }
+}
+/* .john_video_content_body{
+
+} */
+
+
+.journey_content_2019_body{
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1200px) {
+    .journey_content_2019_body{
+        display: block;
+    }
+}
+.journey_content_heading{
+    display: flex;
+    justify-content: end;
+}
+.journey_content_heading h1{
+    color: #FFF0A1;
+}
+.journey_2019_content_detail{
+    padding: 4rem 9rem;
+}
+@media (max-width: 765px) {
+    .journey_content_body_image img{
+        width: 308px;
+    }
+}
+.journey_2019_content_detail p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.gallery_pics_container{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 1320px) {
+    .gallery_pics_container{
+        width: 500px;
+    }
+}
+.gallery_pics_content_second_sec{
+    display: flex;
+    gap: 7px;
+    padding-top: 5px;
 }
