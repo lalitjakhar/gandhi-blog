@@ -69,6 +69,11 @@
 }
 @media (max-width: 1320px) {
     .gallery_pics_container{
+        display: block;
+    }
+}
+@media (max-width: 1320px) {
+    .gallery_pics_content_second img{
         width: 500px;
     }
 }
@@ -76,4 +81,9 @@
     display: flex;
     gap: 7px;
     padding-top: 5px;
+}
+@media (max-width: 1320px) {
+    .gallery_pics_content_second_sec{
+        display: block;
+    }
 }
