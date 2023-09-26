@@ -1,0 +1,10 @@
+.gallery_content_body{
+    background-color: #FFD6005E;
+    height: 10rem;
+    margin-top: -2rem;
+}
+.gallery_content_heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}

@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <div className="contact_content_form pt-4">
                     <form action="#">
-                        <input type="submit" value="Submit"/>
+                        <input type="submit" value="Submit" />
                     </form>
                 </div>
             </div>
