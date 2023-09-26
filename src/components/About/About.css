@@ -1,0 +1,32 @@
+.about_content_body{
+    background-color: #ffffff;
+    color: black;
+    margin-top: -15rem;
+    padding: 3rem 5rem;
+}
+.about_head_content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.about_content_icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.about_twitter_icon{
+    color: #0077ff;
+}
+.about_youtube_icon{
+    color: red;
+}
+.about_facebook_icon{
+    color: #0077ff;
+}
+.about_instagram_icon{
+    color: #ff5100;
+}
+.about_content_para p{
+    font-size: 14px;
+    font-weight: 500;
+}
