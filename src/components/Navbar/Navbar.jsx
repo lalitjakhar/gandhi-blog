@@ -14,9 +14,7 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarToggler">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link"
-                                        href="https://en.wikipedia.org/wiki/Mahatma_Gandhi#:~:text=Mohandas%20Karamchand%20Gandhi%20(2%20October,and%20freedom%20across%20the%20world.">
-                                            Home</a>
+                                    <a className="nav-link"href="https://en.wikipedia.org/wiki/Mahatma_Gandhi#:~:text=Mohandas%20Karamchand%20Gandhi%20(2%20October,and%20freedom%20across%20the%20world.">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">About</a>
