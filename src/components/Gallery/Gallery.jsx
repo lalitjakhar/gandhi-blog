@@ -21,6 +21,8 @@ const Gallery = () => {
                 <div className="john_video_content_body">
                     <h1>John Doe Speaks</h1>
                 </div>
+                <div className="john_video_content">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/TCO1n6udZg8?si=vsqV2Cx6hgGHiBeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
             </div>
             <div className="container mt-5">
                 <div className="journey_content_body_heading">

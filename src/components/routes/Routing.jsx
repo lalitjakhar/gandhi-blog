@@ -5,6 +5,7 @@ import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Contact from '../Contact/Contact';
 import Gallery from '../Gallery/Gallery';
+import Media from '../Media/Media';
 
 const Routing = () => {
     return (
@@ -15,6 +16,7 @@ const Routing = () => {
                     <Route path="/about" element={<About />}></Route>
                     <Route path="/contact" element={<Contact />}></Route>
                     <Route path="/gallery" element={<Gallery />}></Route>
+                    <Route path="/media" element={<Media />}></Route>
                 </Routes>
                 <Footer/>
             </div>
