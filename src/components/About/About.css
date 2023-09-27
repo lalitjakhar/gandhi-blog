@@ -1,6 +1,10 @@
+.about_content_body_back{
+    background-color: #000000;
+    padding-block: 5rem;
+}
 .about_content_body{
     background-color: #ffffff;
-    color: black;
+    color: #000000;
     margin-top: -15rem;
     padding: 3rem 5rem;
 }

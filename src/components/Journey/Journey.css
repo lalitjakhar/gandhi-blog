@@ -1,0 +1,72 @@
+.journey_content_body_heading h1 {
+    color: #ffffff;
+}
+
+.journey_content_2019_body {
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.journey_content_body_image img {
+    height: 520px;
+}
+
+@media (max-width: 1399.98px) {
+    .journey_content_body_image img {
+        height: 547px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .journey_content_body_image img {
+        height: 421px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .journey_content_body_image img {
+        height: 400px;
+        width: 375px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .journey_content_body_image img {
+        height: 488px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .journey_content_body_image img {
+        height: 372px;
+        width: 167px;
+    }
+}
+
+.journey_content_heading {
+    display: flex;
+    justify-content: end;
+}
+
+.journey_content_heading h1 {
+    color: #000000;
+}
+
+.journey_2019_content_detail {
+    padding: 4rem 9rem;
+}
+
+@media (max-width: 1400px) {
+    .journey_2019_content_detail {
+        padding: 0.5rem;
+    }
+}
+
+.journey_2019_content_detail p {
+    color: #000000;
+    font-size: 14px;
+    line-height: 19px;
+}
