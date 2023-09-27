@@ -1,89 +1,219 @@
-.nav_gallery_content_body{
+body {
+    background-color: #000000;
+}
+
+.nav_gallery_content_body {
     background-color: #FFD6005E;
     margin-top: -2rem;
 }
-.nav_gallery_content_heading{
+
+.nav_gallery_content_heading {
     display: flex;
     height: 15rem;
     justify-content: center;
     padding-top: 3rem;
 }
-.nav_gallery_content_para{
+
+.nav_gallery_content_heading h2 {
+    color: #ffffff;
+}
+
+.nav_gallery_content_para {
     width: 70%;
     margin-top: -8rem;
     padding: 4rem 10rem 4rem 18rem;
     display: flex;
     justify-content: flex-start;
-    background-color: #000000;
+    background-color: #ffffff;
 }
-.nav_gallery_content_para p{
+
+.nav_gallery_content_para p {
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
     line-height: 20px;
 }
+
 @media (max-width: 992px) {
-    .nav_gallery_content_para{
+    .nav_gallery_content_para {
         padding: 0;
     }
 }
+
 /* .john_video_content_body{
 
 } */
+.john_video_content_body h1 {
+    color: #ffffff;
+}
 
+.journey_content_body_heading h1 {
+    color: #ffffff;
+}
 
-.journey_content_2019_body{
-    background-color: #000000;
+.journey_content_2019_body {
+    background-color: #ffffff;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
+
 @media (max-width: 1200px) {
-    .journey_content_2019_body{
+    .journey_content_2019_body {
         display: block;
     }
 }
-.journey_content_heading{
+
+.journey_content_heading {
     display: flex;
     justify-content: end;
 }
-.journey_content_heading h1{
-    color: #FFF0A1;
+
+@media (max-width: 1200px) {
+    .journey_content_heading {
+        display: flex;
+        justify-content: center;
+    }
 }
-.journey_2019_content_detail{
+
+.journey_content_heading h1 {
+    color: #000000;
+}
+
+.journey_2019_content_detail {
     padding: 4rem 9rem;
 }
+
+@media (max-width: 1200px) {
+    .journey_2019_content_detail {
+        padding: 1rem;
+    }
+}
+
 @media (max-width: 765px) {
-    .journey_content_body_image img{
+    .journey_content_body_image img {
         width: 308px;
     }
 }
-.journey_2019_content_detail p{
-    color: #ffffff;
+
+.journey_2019_content_detail p {
+    color: #000000;
     font-size: 14px;
     line-height: 19px;
 }
 
-.gallery_pics_container{
+.gallery_pics_container {
     display: flex;
     gap: 10px;
 }
-@media (max-width: 1320px) {
-    .gallery_pics_container{
-        display: block;
-    }
+
+.gallery_pics_content_heading h1 {
+    color: #ffffff;
 }
-@media (max-width: 1320px) {
-    .gallery_pics_content_second img{
-        width: 500px;
-    }
-}
-.gallery_pics_content_second_sec{
+
+.gallery_pics_content_second_sec {
     display: flex;
     gap: 7px;
     padding-top: 5px;
 }
-@media (max-width: 1320px) {
-    .gallery_pics_content_second_sec{
-        display: block;
+
+.gallery_pics_content_first img {
+    height: 600px;
+}
+
+@media (max-width: 1399.98px) {
+    .gallery_pics_content_first img {
+        height: 547px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .gallery_pics_content_first img {
+        height: 492px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .gallery_pics_content_first img {
+        height: 415px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .gallery_pics_content_first img {
+        height: 362px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .gallery_pics_content_first img {
+        height: 277px;
+    }
+}
+
+.gallery_pics_content_second_first img {
+    height: 400px;
+}
+
+@media (max-width: 1399.98px) {
+    .gallery_pics_content_second_first img {
+        height: 371px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .gallery_pics_content_second_first img {
+        height: 342px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .gallery_pics_content_second_first img {
+        height: 304px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .gallery_pics_content_second_first img {
+        height: 279px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .gallery_pics_content_second_first img {
+        height: 193px;
+    }
+}
+
+.gallery_pics_content_second_sec img {
+    height: 200px;
+}
+
+@media (max-width: 1399.98px) {
+    .gallery_pics_content_second_sec img {
+        height: 172px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .gallery_pics_content_second_sec img {
+        height: 145px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .gallery_pics_content_second_sec img {
+        height: 108px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .gallery_pics_content_second_sec img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .gallery_pics_content_second_sec img {
+        height: 81px;
     }
 }
