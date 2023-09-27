@@ -1,9 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 import NavbarMain from '../../assets/navbarmain.png'
+import Gallery from '../Gallery/Gallery';
+import About from '../About/About';
 import Contact from '../Contact/Contact';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className="navbar_body">
@@ -15,13 +19,13 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarToggler">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="https://en.wikipedia.org/wiki/Mahatma_Gandhi#:~:text=Mohandas%20Karamchand%20Gandhi%20(2%20October,and%20freedom%20across%20the%20world.">Home</a>
+                                    <a className="nav-link" onClick={() => navigate("/")}>Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
+                                    <a className="nav-link" onClick={() => navigate("/about")}>About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Gallery</a>
+                                    <a className="nav-link" onClick={() => navigate("/gallery")}>Gallery</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Media</a>
@@ -30,7 +34,7 @@ const Navbar = () => {
                                     <a className="nav-link" href="#">On Social Media</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact Us</a>
+                                    <a className="nav-link" onClick={() => navigate("/Contact")}>Contact Us</a>
                                 </li>
                             </ul>
                         </div>
