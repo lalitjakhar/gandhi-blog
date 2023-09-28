@@ -5,6 +5,7 @@ import Gallery from '../Gallery/Gallery';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Media from '../Media/Media';
+import Socialmedia from '../Socialmedia/Socialmedia';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
                                     <a className="nav-link" onClick={() => navigate("/media")}>Media</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">On Social Media</a>
+                                    <a className="nav-link" onClick={() => navigate("/socialmedia")}>On Social Media</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" onClick={() => navigate("/Contact")}>Contact Us</a>

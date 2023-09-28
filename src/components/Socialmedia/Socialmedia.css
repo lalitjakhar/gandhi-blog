@@ -1,0 +1,11 @@
+.social_media_content_body_back{
+    background-color: #000000;
+}
+.social_media_content_body_heading{
+    width: 70%;
+}
+.social_media_content_body_heading h2{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 44px;
+}

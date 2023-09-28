@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Contact from '../Contact/Contact';
 import Gallery from '../Gallery/Gallery';
 import Media from '../Media/Media';
+import Socialmedia from '../Socialmedia/Socialmedia';
 
 const Routing = () => {
     return (
@@ -17,6 +18,7 @@ const Routing = () => {
                     <Route path="/contact" element={<Contact />}></Route>
                     <Route path="/gallery" element={<Gallery />}></Route>
                     <Route path="/media" element={<Media />}></Route>
+                    <Route path="/socialmedia" element={<Socialmedia />}></Route>
                 </Routes>
                 <Footer/>
             </div>

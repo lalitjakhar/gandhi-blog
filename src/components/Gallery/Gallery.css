@@ -61,7 +61,7 @@
 /***************************** gallery_pics_content_first ***************************/
 
 .gallery_pics_content_first img {
-    height: 600px;
+    height: 604px;
 }
 
 @media (max-width: 1399.98px) {
@@ -139,7 +139,7 @@
 }
 
 .gallery_pics_content_second_sec img {
-    height: 200px;
+    height: 199px;
 }
 
 @media (max-width: 1399.98px) {
@@ -168,6 +168,6 @@
 
 @media (max-width: 575.98px) {
     .gallery_pics_content_second_sec img {
-        height: 81px;
+        height: 78px;
     }
 }

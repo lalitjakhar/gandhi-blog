@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import Gallery from './components/Gallery/Gallery';
+import Socialmedia from './components/Socialmedia/Socialmedia';
 import Routing from './components/routes/Routing';
 
 function App() {
