@@ -31,19 +31,19 @@ const Gallery = () => {
                         <div className="gallery_pics_content_heading">
                             <h1>Gallery</h1>
                         </div>
-                        <div className="gallery_pics_container">
+                        <div className="gallery_pics_container py-5">
                             <div className="gallery_pics_content_first">
-                                <img className='img-fluid' src={gallery1} alt="" />
+                                <img className='img-fluid' src={gallery1} alt='gallery_1_img' />
                             </div>
                             <div className="gallery_pics_content_second">
                                 <div className="gallery_pics_content_second_first">
-                                    <img className='img-fluid' src={gallery2} alt="" />
+                                    <img className='img-fluid' src={gallery2} alt='gallery_2_img' />
                                 </div>
                                 <div className="gallery_pics_content_second_sec">
-                                    <img className='img-fluid' src={gallery3} alt="" />
-                                    <img className='img-fluid' src={gallery3} alt="" />
-                                    <img className='img-fluid' src={gallery3} alt="" />
-                                    <img className='img-fluid' src={gallery3} alt="" />
+                                    <img className='img-fluid' src={gallery3} alt='gallery_3_img' />
+                                    <img className='img-fluid' src={gallery3} alt='gallery_3_img' />
+                                    <img className='img-fluid' src={gallery3} alt='gallery_3_img' />
+                                    <img className='img-fluid' src={gallery3} alt='gallery_3_img' />
                                 </div>
                             </div>
                         </div>

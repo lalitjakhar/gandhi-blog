@@ -1,6 +1,7 @@
 import React from 'react';
 import './Socialmedia.css';
 import Carousel from '../../assets/carousel.png'
+import Gallery2 from '../../assets/gallery2.png'
 
 const Socialmedia = () => {
     return (
@@ -10,7 +11,7 @@ const Socialmedia = () => {
                     <div className="social_media_content_body_heading">
                         <h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots </h2>
                     </div>
-                    <div id="carouselExampleAutoplaying" className="carousel slide pt-5 pb-5" data-bs-ride="carousel">
+                    <div id="carouselExampleAutoplaying" className="carousel slide py-5" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src={Carousel} className="d-block w-100" alt="..." />
