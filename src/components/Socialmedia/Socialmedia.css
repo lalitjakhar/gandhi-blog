@@ -1,11 +1,32 @@
-.social_media_content_body_back{
-    background-color: #000000;
-}
-.social_media_content_body_heading{
+.social_media_content_body_heading {
     width: 70%;
+    margin-top: 1rem;
 }
-.social_media_content_body_heading h2{
-    color: #ffffff;
+
+.social_media_content_body_heading h2 {
+    color: #000000;
     font-size: 32px;
     line-height: 44px;
+}
+
+.carousel_card_content_body {
+    background-image: url(../../assets/carousel.png);
+    width: 98%;
+    margin-inline: -13px;
+    height: 13rem;
+}
+
+.carousel_card_content_body h5 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding: 8rem 1rem 0rem 1rem;
+    color: #ffea83;
+    font-weight: 500;
+    font-family: 'TT Fors Trial', sans-serif;
+}
+.carousel_card_content_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-inline: 1rem;
 }
