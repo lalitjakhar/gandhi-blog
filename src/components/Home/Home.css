@@ -1,0 +1,35 @@
+.home_body_content_back{
+    background-color: #200101;
+    color: #ffc400;
+}
+.home_page_body_content{
+    display: flex;
+    justify-content: center;
+}
+.home_page_body_content_pic{
+    display: flex;
+    justify-content: center;
+}
+.home_page_body_content_pic img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+@media (max-width: 500px) {
+    .home_page_body_content_pic img {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+    .home_page_body_content_pic img {
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (max-width: 300px) {
+    .home_page_body_content_pic img {
+        height: 200px;
+        width: 200px;
+    }
+}
